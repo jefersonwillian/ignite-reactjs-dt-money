@@ -1,7 +1,14 @@
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: #e17415;
+  font-size: 64px;
+`;
+
 export function App() {
   return (
     <div className="App">
-      <h1>heloo word</h1>
+      <Title>heloo word</Title>
     </div>
   );
 }
